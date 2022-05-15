@@ -8,7 +8,10 @@ module.exports = {
                     DEFAULT: "#131921",
                 },
             },
+            screens: {
+                "3xl": "1920px",
+            },
         },
     },
-    plugins: [require("@tailwindcss/line-clamp")],
+    plugins: [require("@tailwindcss/line-clamp"), require("tailwind-scrollbar-hide")],
 };
